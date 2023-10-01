@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Doc modules npm installés
 
-https://headlessui.com/
-https://heroicons.com/
-https://tailwindcss.com/docs/installation
-https://nextjs.org/docs
+- https://headlessui.com/
+- https://heroicons.com/
+- https://tailwindcss.com/docs/installation
+- https://nextjs.org/docs
