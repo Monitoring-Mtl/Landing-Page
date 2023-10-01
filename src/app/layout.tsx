@@ -1,7 +1,7 @@
 "use client"; //Cette page sera générée par le client. Par défaut, les pages sont générées par le serveur.
 
 import "./globals.css";
-import CustomNav, { INavigation } from "./layouts/CustomNav";
+import CustomNav, { INavigation } from "../layouts/CustomNav";
 
 export default function RootLayout({
   children,

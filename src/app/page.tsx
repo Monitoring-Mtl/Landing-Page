@@ -10,7 +10,7 @@ Envoyer première version (lien http) à Francis
 */
 
 import { Tab } from "@headlessui/react";
-import CustomTab from "./layouts/CustomTab";
+import CustomTab from "../layouts/CustomTab";
 
 export default function Home() {
   return (
