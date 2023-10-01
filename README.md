@@ -41,3 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://heroicons.com/
 - https://tailwindcss.com/docs/installation
 - https://nextjs.org/docs
+- https://github.com/tailwindlabs/headlessui/tree/main/packages/%40headlessui-tailwindcss

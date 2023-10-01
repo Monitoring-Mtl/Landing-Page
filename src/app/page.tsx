@@ -1,16 +1,16 @@
 "use client";
+
+import CustomTab from "./layouts/CustomTab";
+
 /*
-attendre avant de mettre les logos OU mettre les logos et ne pas faire sortir ça de notre cercle pour l&apos;instant
-Prendre la description du projet qu&apos;on a eu sur moodle
+attendre avant de mettre les logos OU mettre les logos et ne pas faire sortir ça de notre cercle pour l'instant
+Prendre la description du projet qu'on a eu sur moodle
 Contient un lien vers notre projet
 https://www.fxinnovation.com/fr/cloud-campus/
-J&apos;ai reçu le logo cloudcampus par courriel
-Le site n&apos;a pas besoin d&apos;être parfait
+J'ai reçu le logo cloudcampus par courriel
+Le site n'a pas besoin d'être parfait
 Envoyer première version (lien http) à Francis
 */
-
-import { Tab } from "@headlessui/react";
-import CustomTab from "../layouts/CustomTab";
 
 export default function Home() {
   return (
@@ -18,7 +18,6 @@ export default function Home() {
       <h1>Accueil</h1>
       <p>
         <b>Organisme</b> : CloudCampus (propulsé par FX Innovation), AWS Canada
-        (514 396-8756)
       </p>
       <hr />
       <p>
