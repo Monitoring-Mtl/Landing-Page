@@ -42,3 +42,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://tailwindcss.com/docs/installation
 - https://nextjs.org/docs
 - https://github.com/tailwindlabs/headlessui/tree/main/packages/%40headlessui-tailwindcss
+
+## Exporter le projet
+
+- Dans next.config.js, ajouter la ligne "output: "export"," à nextConfig
+- npm run build
+- Dans le dossier "out" ainsi créé, manuellement modifier les routes des balises "link", "a" et des images pour qu'elles soient relatives plutôt que absolues (à voir selon si le déploiement permet de placer le dossier à la racine)
+- À savoir que les éléments réagissant au interactions de l'utilisateur ne marcheront plus une fois le projet exporté (par exemple, le click d'un bouton pour afficher un élément)
