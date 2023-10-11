@@ -4,8 +4,8 @@ export default function Partenaires() {
   return (
     <>
       <h1>Partenaires</h1>
-      <Image
-        src="/cloudcampus-logo.png"
+      <img
+        src="https://monitoring-mtl.github.io/cloudcampus-logo.png"
         alt="Logo cloud campus"
         width={300}
         height={300}

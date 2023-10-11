@@ -47,5 +47,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Dans next.config.js, ajouter la ligne "output: "export"," à nextConfig
 - npm run build
-- Dans le dossier "out" ainsi créé, manuellement modifier les routes des balises "link", "a" et des images pour qu'elles soient relatives plutôt que absolues (à voir selon si le déploiement permet de placer le dossier à la racine)
-- À savoir que les éléments réagissant au interactions de l'utilisateur ne marcheront plus une fois le projet exporté (par exemple, le click d'un bouton pour afficher un élément)
+- Copier les fichiers du dossier "out" ainsi créé dans le repo https://github.com/Monitoring-Mtl/Monitoring-Mtl.github.io
+- Les pages ne fonctionneront pas en local, mais fonctionnent bien en production
+- Les chemins absolus et les balises "img" doivent être utilisés pour les images
